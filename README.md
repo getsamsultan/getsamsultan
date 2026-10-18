@@ -1,6 +1,6 @@
 ### Hi, I'm Sam 👋
 
-Infrastructure & operations analyst in Sydney. I build and measure **local AI on AMD hardware** through a data-centre operations lens: power, cost, failure modes, and what an organisation is really buying when it keeps AI in-house.
+Infrastructure & operations analyst in Sydney, working in data-centre operations: monitoring, power and telemetry data, Modbus, and reporting across sites. On my own time I build and measure **local AI on AMD hardware** through that same lens: power, cost, failure modes, and what an organisation is really buying when it keeps AI in-house.
 
 **🔬 [rdna4-local-ai-lab](https://github.com/getsamsultan/rdna4-local-ai-lab)**, a lab notebook for 3× Radeon AI PRO R9700 (96 GB VRAM)
 
@@ -11,3 +11,5 @@ Infrastructure & operations analyst in Sydney. I build and measure **local AI on
 **Upstream:** [Osmantic/ODS #7786](https://github.com/Osmantic/ODS/issues/7786) · [#7787](https://github.com/Osmantic/ODS/issues/7787)
 
 **Next:** ROCm 10 · multi-user serving cost · auditing what "local" stacks send out · OT security lab
+
+[LinkedIn](https://www.linkedin.com/in/samsultan-it)
