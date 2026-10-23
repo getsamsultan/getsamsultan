@@ -14,4 +14,4 @@ Infrastructure & operations analyst in Sydney, working in data-centre operations
 
 **Next:** ROCm 10 · multi-user serving cost · auditing what "local" stacks send out · OT security lab
 
-[LinkedIn](https://www.linkedin.com/in/samsultan-it)
+[X @sultanminutes](https://x.com/sultanminutes) · [LinkedIn](https://www.linkedin.com/in/samsultan-it)
