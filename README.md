@@ -7,6 +7,8 @@ Infrastructure & operations analyst in Sydney, working in data-centre operations
 - 🔧 Traced one config line costing **61%** of generation speed → 21.0 to 54.3 tokens/s
 - ⚡ **A$0.71** of electricity per million tokens generated, measured at the wall
 - ☁️ ~17 years of hardware payback vs renting the same model: local AI is a control decision, not a cheap-tokens one
+- 🧮 80B on 2 cards is 5% faster than 3 (57.3 vs 54.6 t/s), but ~1 GB short of a 128K context
+- 📊 Running RDNA4 or anything else? [Submit your llama-bench numbers](https://github.com/getsamsultan/rdna4-local-ai-lab/issues/new?template=rig-results.yml) for a like-for-like comparison
 
 **Upstream:** [Osmantic/ODS #7786](https://github.com/Osmantic/ODS/issues/7786) · [#7787](https://github.com/Osmantic/ODS/issues/7787)
 
