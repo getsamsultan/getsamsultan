@@ -1,17 +1,18 @@
 ### Hi, I'm Sam 👋
 
-Infrastructure & operations analyst in Sydney, working in data-centre operations: monitoring, power and telemetry data, Modbus, and reporting across sites. On my own time I build and measure **local AI on AMD hardware** through that same lens: power, cost, failure modes, and what an organisation is really buying when it keeps AI in-house.
+Infrastructure and operations analyst in Sydney, working in data-centre operations: monitoring, power and telemetry data, Modbus, and reporting. On my own time I measure **local AI on AMD hardware** the same way: power, cost, failure modes, and what an organisation is really buying when it keeps AI in-house.
 
-**🔬 [rdna4-local-ai-lab](https://github.com/getsamsultan/rdna4-local-ai-lab)**, a lab notebook for 3× Radeon AI PRO R9700 (96 GB VRAM)
+**🔬 [rdna4-local-ai-lab](https://github.com/getsamsultan/rdna4-local-ai-lab)**: 3× Radeon AI PRO R9700 (96 GB), measured and reproducible
 
-- 🔧 Traced one config line costing **61%** of generation speed → 21.0 to 54.3 tokens/s
-- ⚡ **A$0.71** of electricity per million tokens generated, measured at the wall
-- ☁️ ~17 years of hardware payback vs renting the same model: local AI is a control decision, not a cheap-tokens one
-- 🧮 80B on 2 cards is 5% faster than 3 (57.3 vs 54.6 t/s), but ~1 GB short of a 128K context
-- 📊 Running RDNA4 or anything else? [Submit your llama-bench numbers](https://github.com/getsamsultan/rdna4-local-ai-lab/issues/new?template=rig-results.yml) for a like-for-like comparison
+- 🧠 Blind test on my own work questions: a 177B model scored 27/30, an 80B 18/30, and the 80B answered 3.7× faster
+- 🚀 Same model, same cards: updating llama.cpp alone gave +19% (51.8 → 61.8 tokens/s)
+- 🔧 Traced one config line costing 61% of serving speed
+- ⚡ A$0.71 of electricity per million tokens, but ~17 years to pay back the hardware vs renting: local AI is a control decision
 
-**Upstream:** [Osmantic/ODS #7786](https://github.com/Osmantic/ODS/issues/7786) · [#7787](https://github.com/Osmantic/ODS/issues/7787)
+**🧪 [model-editing-lab](https://github.com/getsamsultan/model-editing-lab)**: what it costs to change an open model's weights
 
-**Next:** ROCm 10 · multi-user serving cost · auditing what "local" stacks send out · OT security lab
+**How I test:** one variable at a time, raw data published, and A–B–A, the omega-3 of benchmarking: baseline, change, baseline again.
+
+**Running different hardware?** [Send me your numbers](https://github.com/getsamsultan/rdna4-local-ai-lab/issues/new?template=rig-results.yml).
 
 [X @sultanminutes](https://x.com/sultanminutes) · [LinkedIn](https://www.linkedin.com/in/samsultan-it)
