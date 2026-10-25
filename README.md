@@ -5,7 +5,7 @@ Infrastructure and operations analyst in Sydney, working in data-centre operatio
 **🔬 [rdna4-local-ai-lab](https://github.com/getsamsultan/rdna4-local-ai-lab)**: 3× Radeon AI PRO R9700 (96 GB), measured and reproducible
 
 - 🧠 Blind test on my own work questions: a 177B model scored 27/30, an 80B 18/30, and the 80B answered 3.7× faster
-- 🚀 Same model, same cards: updating llama.cpp alone gave +19% (51.8 → 61.8 tokens/s)
+- 🚀 Same model, same cards: updating the inference engine image gave +13–19% (to 61.8 tokens/s)
 - 🔧 Traced one config line costing 61% of serving speed
 - ⚡ A$0.71 of electricity per million tokens, but ~17 years to pay back the hardware vs renting: local AI is a control decision
 
